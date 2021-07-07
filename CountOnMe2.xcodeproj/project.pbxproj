@@ -11,6 +11,10 @@
 		6233462925A865D7006B36D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6233462825A865D7006B36D6 /* ContentView.swift */; };
 		6233462B25A865D8006B36D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6233462A25A865D8006B36D6 /* Assets.xcassets */; };
 		6233462E25A865D8006B36D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6233462D25A865D8006B36D6 /* Preview Assets.xcassets */; };
+		6233463725A884D3006B36D6 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6233463625A884D3006B36D6 /* Calculator.swift */; };
+		6255B34C25DE652100B473EB /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6255B34B25DE652100B473EB /* DisplayView.swift */; };
+		6255B35525DE657900B473EB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6255B35425DE657900B473EB /* Color.swift */; };
+		625D4AB125B99CBB00864C7C /* Bullpen3D.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 625D4AB025B99CBB00864C7C /* Bullpen3D.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,12 @@
 		6233462A25A865D8006B36D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6233462D25A865D8006B36D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6233462F25A865D8006B36D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6233463625A884D3006B36D6 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		6255B34B25DE652100B473EB /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		6255B35325DE655E00B473EB /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
+		6255B35425DE657900B473EB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		6255B35925DE65F800B473EB /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Delm-Medium.otf"; path = "../../../Instagrid2/Instagrid2/Assets.xcassets/Delm-Medium.dataset/Delm-Medium.otf"; sourceTree = "<group>"; };
+		625D4AB025B99CBB00864C7C /* Bullpen3D.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bullpen3D.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				6233462625A865D7006B36D6 /* CountOnMe2App.swift */,
-				6233462825A865D7006B36D6 /* ContentView.swift */,
+				6255B34E25DE652700B473EB /* Views */,
+				6255B35025DE653F00B473EB /* Model */,
+				6255B35225DE655E00B473EB /* Fonts */,
 				6233462A25A865D8006B36D6 /* Assets.xcassets */,
+				6255B35725DE658300B473EB /* Extensions */,
 				6233462F25A865D8006B36D6 /* Info.plist */,
 				6233462C25A865D8006B36D6 /* Preview Content */,
 			);
@@ -67,6 +80,41 @@
 				6233462D25A865D8006B36D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6255B34E25DE652700B473EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6233462825A865D7006B36D6 /* ContentView.swift */,
+				6255B34B25DE652100B473EB /* DisplayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6255B35025DE653F00B473EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6233463625A884D3006B36D6 /* Calculator.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6255B35225DE655E00B473EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				625D4AB025B99CBB00864C7C /* Bullpen3D.ttf */,
+				6255B35925DE65F800B473EB /* Delm-Medium.otf */,
+				6255B35325DE655E00B473EB /* Delm-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6255B35725DE658300B473EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6255B35425DE657900B473EB /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +176,7 @@
 			files = (
 				6233462E25A865D8006B36D6 /* Preview Assets.xcassets in Resources */,
 				6233462B25A865D8006B36D6 /* Assets.xcassets in Resources */,
+				625D4AB125B99CBB00864C7C /* Bullpen3D.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6233463725A884D3006B36D6 /* Calculator.swift in Sources */,
+				6255B34C25DE652100B473EB /* DisplayView.swift in Sources */,
 				6233462925A865D7006B36D6 /* ContentView.swift in Sources */,
+				6255B35525DE657900B473EB /* Color.swift in Sources */,
 				6233462725A865D7006B36D6 /* CountOnMe2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
