@@ -12,7 +12,7 @@
 
 ## Screenshots
 
-<img width="395" alt="Screenshots_CountOnMe2" src="https://user-images.githubusercontent.com/39113497/124938516-a48d0e80-e008-11eb-93f4-cc623d9953d1.png">
+<img width="552" alt="Screenshots_CountOnMe2" src="https://user-images.githubusercontent.com/39113497/124939691-a0adbc00-e009-11eb-9f5a-1e0d132d2bd4.png">
 
 ## Detailed Documentation
 
